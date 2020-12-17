@@ -8,7 +8,7 @@ jobs:
       - name: checkout
         uses: actions/checkout@main
       - name: Run a single-line script
-        run: echo"Hello World!"
+        run: echo "Hello World!"
   my_second_job:
     name: My second job
     runs-on: macos-latest
@@ -16,7 +16,7 @@ jobs:
        - name: Run a multi-line script
          env:
            MY_VAR: Hello World!
-           MY_NAME: PTERX
+           MY_NAME: P3TERX
          run:
            echo $MY_VAR
            echo My name is $MY_NAME
