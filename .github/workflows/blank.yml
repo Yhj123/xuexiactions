@@ -18,7 +18,6 @@ jobs:
            MY_VAR: Hello World!
            MY_NAME: PTERX
          run:
-           echo: $MY_VAR
+           echo $MY_VAR
            echo My name is $MY_NAME
            
-     
